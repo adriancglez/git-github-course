@@ -1,0 +1,5 @@
+Podemos ver los cambios que se integraron en el repositorio remoto, sin
+necesidad de integrarlos en nuestro repositorio local, para eso usamos
+el comando:
+
+git fetch
