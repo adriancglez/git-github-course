@@ -37,3 +37,7 @@ git push -u origin master
 origin  --> Es el nombre del repositorio.
 
 master  -->  Es la rama hacia la que se realiza el push.
+
+Para clonar un repositorio, usamos el comando:
+
+git clone <url> <? nombre-carpeta>
