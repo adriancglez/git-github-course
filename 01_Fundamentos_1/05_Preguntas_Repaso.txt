@@ -1,0 +1,28 @@
+1.- Cuando utilizamos Git, ¿Todos los miembros del equipo tienen una copia del repositorio central?
+    R: Verdadero.
+
+2.- ¿En un commit en Git, es como una fotografía del proyecto en ese momento?
+    R: Verdadero.
+
+3.- ¿Para qué sirve el comando git init?: B
+    a) Para configurar nuestro usuario y contraseña.
+    b) Para inicializar el repositorio.
+    c) Para inicar el seguimiento de los archivos.
+
+4.- Localmente, ¿Dónde se encuentra la carpeta que permite controlar todo nuestro repositorio en git?: C
+    a) En la carpeta git.
+    b) En la carpeta git-config
+    c) En la carpeta .git.
+
+5.- Si queremos eliminar git de nuestro repositorio, ¿Qué debemos hacer?: A
+    a) Borrar la carpeta .git.
+    b) Ejecutar el comando git destroy.
+    c) Copiar el folder a otro directorio.
+
+6.- ¿Qué es el stage o escenario?: C
+    a) Un lugar donde se muestra toda la información del commit.
+    b) El lugar donde podemos ver todos los archivos de nuestro repositorio.
+    c) Es un lugar donde podemos confirmar los archivos y carpetas que conformarán el commit.
+
+7.- El comando git s, ¿Es propio de Git?:
+    R: Falso.

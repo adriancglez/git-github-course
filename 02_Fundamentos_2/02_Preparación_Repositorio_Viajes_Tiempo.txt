@@ -1,0 +1,15 @@
+El comando de una sola línea que nos ayuda a agregar al stage y crear el commit es:
+
+git commit -am "Mensaje"
+
+Para regresar a un punto en el tiempo, pero descartando todos los cambios realizados, se usa el comando
+
+git reset --hard idcommit
+
+Para ver todos los commit, hasta los borrados, ejecutamos el comando:
+
+git reflog
+
+Agarramos el idcommit y lo acompletamos con el comando
+
+git reset --hard idcommit

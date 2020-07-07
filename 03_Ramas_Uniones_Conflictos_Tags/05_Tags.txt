@@ -1,0 +1,28 @@
+Los Tags o etiquetas, son una referencia a un commit específico.
+
+Los Tags son usados para marcar versiones o releases de nuestros aplicativos o programas.
+
+Para crear un tag, usamos el siguiente comando:
+
+git tag nombreTag
+
+Para ver los tags de un repositorio, se usa el comando:
+
+git tag
+
+Para borrar un tag, usamos el siguiente comando:
+
+git tag -d nombreTag
+
+Para crear un tag a partir del último commit se usa el siguiente comando:
+
+git tag -a nombreTag -m "Mensaje"
+
+Para pobner un tag en un commit específico, se usa el comando:
+
+git tag -a nombreTag hashDelCommit -m "Mensaje"
+
+Para ver la información completa de un tag, escribimos el siguiente comando:
+
+git show nombreTag
+

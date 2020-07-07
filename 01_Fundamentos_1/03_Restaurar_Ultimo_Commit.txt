@@ -1,0 +1,4 @@
+En caso que accidentalmente borremos algún archivo, carpeta, modifiquemos un archivo y guardemos cambios y cerremos
+la forma de restaurarlos es con el comando de git:
+
+git checkout -- .

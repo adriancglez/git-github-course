@@ -1,0 +1,45 @@
+Para crear un repositorio, debemos posicionarnos desde la terminal, en la carpeta raíz del repositorio,
+teclear el comando:
+
+git init
+
+Dentro, se crea una carpeta llamada .git, dentro de ella, se contienen todas las configuraciones del
+repositorio y ahí no se debe tocar nada en lo absoluto.
+
+Si se desea deshacer el repositorio, simplemente se elimina.
+
+El siguiente comando:
+
+git status
+
+Indica en rojo, todos aquellos archivos que existen en esa carpeta pero que no han sido registrados en
+ningún lugar.
+
+Con el comando:
+
+git add .
+
+Se le indica a git que se agregan todos los archivos para que él esté pendiente de los cambios.
+
+Se teclea el comando:
+
+git status
+
+nuevamente, y nos mostrará en verde todos los archivos, esos archivos han sido reconocidos por git.
+
+Con el comando:
+
+git commit -m "Mensaje"
+
+se le indica a git que se realiza un snapshot de los archivos modificados.
+
+Cuando se teclea el comando:
+
+git status
+
+y muestra el mensaje: 
+
+On branch master
+nothing to commit, working tree clean
+
+Significa que se tiene un arbol limpio.

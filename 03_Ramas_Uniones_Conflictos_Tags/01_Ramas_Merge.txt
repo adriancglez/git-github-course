@@ -1,0 +1,23 @@
+Las ramas, son lineas de tiempo alternativas, las cuales nos permiten modificar sin afectar la rama principal.
+
+La rama es una línea de tiempo de commits.
+
+La rama principal por default creada por git es master.
+
+Otro concepto principal que se maneja en el tema de las ramas, es el merge.
+
+Cuando queremos unir una rama a otra, Git lo va intentar hacer por nosotros.
+
+Existen tres posibles escenarios que pueden suceder en un merge:
+
+    1)  Fast-forward:       Se dispara cuando Git detecta que no hay ningún cambio en la rama principal y los cambios pueden 
+                            ser reintegrados de forma transparente y cada uno de los commits formará parte de la rama principal,
+                            tal como si nunca los hubiéramos separado. Es posible separar esta característica.
+
+    2)  Unión automática:   En las uniones automáticas, Git detecta que en la rama principal hubo algún cambio que las ramas
+                            secundarias o la otra rama desconoce, pero cuando intentamos hacer merge, Git dice que si no se
+                            modificaron líneas iguales no hay conflictos, se pueden unir de forma automática y Git lo hace sin
+                            ningún problema, marcando que en ese momento, ambas ramas se unieron.
+
+    3) Unión manual:        Se presenta cuando al unir ambas ramas no se puede realizar de forma automática, debido a que posiblemente
+                            se hayan modificado las mismas líneas de una mismo archivo.

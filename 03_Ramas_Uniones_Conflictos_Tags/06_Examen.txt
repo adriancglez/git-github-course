@@ -1,0 +1,30 @@
+1.- ¿Una rama se puede definir como una línea del tiempo de commits?
+    R: Verdadero.
+
+2.- ¿El master es una rama?
+    R: Verdadero.
+
+3.- ¿Todas las ramas pueden unirse al master?
+    R: Verdadero.
+
+4.- ¿El merge, es la unión de dos ramas?
+    R: Verdadero.
+
+5.- Cuando aparece la palabra Fast-Forward después de un merge, ¿Qué significa?: C
+    a) Todo se realizó correctamente en el merge.
+    b) Tenemos que mover el puntero del HEAD porque ya no se encuentra actualizado.
+    c) Unió sin problemas ya que no existían commits en la rama a la cual unimos los cambios.
+
+6.- En un merge, ¿Git siempre intentará resolver los merge de forma automática?
+    R: Verdadero. Intentará hacerlo, pero si detecta conflictos, nos pedirá que los corrijamos.
+
+7.- ¿Qué significa el siguiente mensaje en consola? ?? Historial.md: B
+    a) Se desconoce el tipo de archivo Historial.md
+    b) El a Historial.md, actualmente no se le está dando un seguimiento en el repositorio.
+    c) El archivo Historial.md es de otra rama y no hemos realizado un merge.
+
+8.- ¿Cómo creamos una nueva rama?: C
+    a) git checkout
+    b) git checkout -b
+    c) git branch rama
+    d) git branch -ab nombre-rama

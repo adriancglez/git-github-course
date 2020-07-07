@@ -1,0 +1,18 @@
+Es probable que presentemos conflictos en el stash,
+esto puede suceder cuando estamos modificando un archivo
+que guardamos en el stash pero que que también ocupamos 
+en otra rama, al cabo de todo el proceso de creación del
+stash, commit, y regreso tengamos que eliminar el stash,
+para eso usamos el comando:
+
+git stash drop
+
+Este comando borra el primer stash. Si deseamos borrar un stash
+en específico, usamos el comando:
+
+git stash drop stash@{#}
+
+Cuando queremos restarar un stash en específico, usamos
+el comando:
+
+git stash apply stash@{#}

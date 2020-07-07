@@ -1,0 +1,23 @@
+Debemos cambiarnos a la rama, checamos las ramas con el comando:
+
+git branch
+
+Nos cambiamos a la rama con el comando:
+
+git checkout nombre-rama
+
+Ejecutamos el comando:
+
+git rebase master
+
+Cambiamos a la rama master con el comando:
+
+git checkout master
+
+Ejecutamos el comando para hacer el merge:
+
+git merge nombre-rama
+
+Eliminamos la branch
+
+git branch -d nombre-rama

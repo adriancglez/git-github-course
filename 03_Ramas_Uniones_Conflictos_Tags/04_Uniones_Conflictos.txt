@@ -1,0 +1,20 @@
+Creamos una nueva rama y nos cambiamos a ella con el comando:
+
+git checkout -b nueva-rama
+
+Modificamos un archivo y hacemos commit
+
+git checkout -am "Mensaje"
+
+Cambiamos a master y modificamos el mismo archivo en la misma línea, hacemos commit
+
+En la rama donde haremos el merge, pulsamos el comando:
+
+git merge nueva-rama
+
+Esto ocasionará un conflicto, mostrando el siguiente mensaje:
+
+Auto-merging file.ext
+CONFLICT (content): Merge conflict in file.ext
+Automatic merge failed; fix conflicts and then commit the result.
+

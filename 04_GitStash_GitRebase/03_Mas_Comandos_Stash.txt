@@ -1,0 +1,50 @@
+git stash               Los salva y restaura
+git stash save          el último commit
+
+git stash apply ==  git stash apply stash@{0}
+
+git stash drop  ==  git stash drop stash@{0}
+
+git stash pop   ==  git stash apply
+                    git stash drop
+
+Keep index
+
+Guarda todos menos los archivos que están en
+el stage o en el escenario.
+
+git stash save --keep-index
+
+Include-untracked
+
+Incluye todos los archivos, junto a los que
+git no les da seguimiento.
+
+git stash save --include-untracked
+
+Si tenemos una lista con muchos stash, nos
+puede resultar dificil conocer el contenido
+de cada uno de ellos, para ello, usamos el
+comando:
+
+git stash list --stat
+
+Si queremos ver información de un stash, usamos
+el siguiente comando:
+
+git show stash
+
+Si queremos ver información de un stash en específico
+usamos el siguiente comando:
+
+git show stash@{#}
+
+Para agregar un mensaje al stash, usamos el siguiente
+comando:
+
+git stage save "Mensaje"
+
+Si queremos borrar todos los stash, usamos el
+siguiente comando:
+
+git stash clear

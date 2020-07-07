@@ -1,0 +1,24 @@
+Podemos separar un commit para generar dos commit, esto es útil cuando queremos dividir
+los archivos en dos commit.
+
+Si queremos restaurar un archivo modificado, usamos el comando:
+
+git checkout -- archivo.ext
+
+Para separar un commit en dos, usamos primero el comando:
+
+git rebase - HEAD~2
+
+Modificamos la línea del último commit, cambiamos pick por edit, guardamos y salimos.
+
+Ejecutamos el comando:
+
+git reset HEAD^
+
+git add archivo.ext
+
+git commit -m "Mensaje"
+
+git commit -am "Mensaje"
+
+git rebase --continue

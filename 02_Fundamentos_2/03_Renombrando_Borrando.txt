@@ -1,0 +1,34 @@
+Para renombrar archivos usando la consola y que Git lo registre en su historial, usamos el comando:
+
+git mv nombre-archivo.ext nuevo-nombre.ext
+
+Para eliminar un archivo usando la consola y que Git lo registre en su historial. usamos el comando:
+
+git rm archivo.ext
+
+Cuando se desea renombrar un archivo, ya sea manualmente o usando IDE, se renombra de la forma acostumbrada,
+pero se ejecuta el comando:
+
+git status
+
+para ver los cambios, se deben reflejar dos cambios por ese archivo, se ejecuta el comando:
+
+git add -u
+
+y posteriormente el comando git add -A
+
+con esto ya quedaría registrado en el historial de git.
+
+Para eliminar un archivo manualmente, se elimina, se ejecuta el comando:
+
+git status
+
+para ver si se registró la acción y con el comando:
+
+git add -u
+
+agregamos la acción al stage
+
+Ejecutamos el comando commit para que se refleje el cambios
+
+git commit -m "mensaje"

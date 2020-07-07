@@ -1,0 +1,39 @@
+El comando para crear una rama nueva es:
+
+git branch nombre-rama
+
+El comando que muestra todas las ramas, pero resaltando en verde la rama en la que nos encontramos
+en este momento es:
+
+git branch
+
+Para cambiar de rama se utiliza el comando:
+
+git checkout nombre-rama
+
+Para saber las diferencias entre una rama y otra, se usa el comando:
+
+git diff rama1 rama2
+
+HEAD apunta al último commit de la rama en la que nos encontramos.
+
+Para unir dos ramas, debemos posicionarnos en la rama donde realizaremos la fusión, con el comando:
+
+git checkout rama
+
+Dentro de ella, tecleamos el comando:
+
+git merge rama
+
+Si todo sale bien, nos mostrará un mensaje similar al siguiente:
+
+    Updating 62c8a10..85a1e3e
+    Fast-forward
+    villanos.md | 5 +++++
+    1 file changed, 5 insertions(+)
+    create mode 100644 villanos.md
+
+Al finalizar el merge, si todo salió bien, es de buenas prácticas eliminar la rama, para eliminar
+la rama, se utiliza el comando:
+
+git branch -d nombre-rama

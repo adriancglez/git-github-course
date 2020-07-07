@@ -1,0 +1,39 @@
+Requerimos realizar un respaldo del repositorio, por lo general, en un equipo
+ajeno al nuestro. Esto se conoce como repositorio remoto.
+
+Los conceptos básico para trabajar con repositorios remotos, son:
+
+push:   Tomar nuestro repositorio o los últimos cambios o los cambios pendientes
+        que no están en el repositorio y subirlos a ese servidor.
+
+pull:   Obtener los cambios del repositorio remoto.
+
+GitHub es un plataforma de desarrollo colaborativo de software para alojar proyectos.
+
+Cuando estamos en nuestro repositorio local, y queremos agregar lo que se conoce como
+un origen remoto, se usa el siguiente comando:
+
+git remote add origin <url>
+
+add     --> significa que deseamos agregar un nuevo remote. Podemos agregar varios remotes
+            en un mismo repositorio.
+
+origin  --> Es el nombre que deseamos darle a nuestro repositorio. Por estándar se llama
+            origin.
+
+Si deseamos revisar los remotos o fuentes remotas que tenemos agregadas a nuestro repositorio,
+ejecutamos este comando:
+
+git remote -v
+
+Nótese que para el siguiente comando:
+
+git push -u origin master
+
+-u      --> Nos ayuda a que la próxima vez que querramos hacer un push, no necesitamso especificar
+            la rama, en el comando anterior, con -u se establece que para los siguientes push, se
+            establece la rama master por defecto.
+
+origin  --> Es el nombre del repositorio.
+
+master  -->  Es la rama hacia la que se realiza el push.

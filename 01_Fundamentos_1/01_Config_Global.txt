@@ -1,0 +1,14 @@
+Comandos básicos de Git
+
+git --version   indica la versión de Git instalada.
+
+gti help        temas de ayuda y documentación de los comandos de Git.
+
+Antes de empezar a crear nuestros repositorios, hay que decirle a Git quienes somos, es decir, indicar nuestros datos iniciales:
+
+git config --global user.name "Adrián González"
+git config --global user.email "yo.robot.1990@gmail.com"
+
+Para visualizar la configuración global:
+
+git config --global -e

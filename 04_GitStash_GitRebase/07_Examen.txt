@@ -1,0 +1,33 @@
+1.- ¿Para qué sirve el stash?:  B
+    a) Para fusionar los cambios inmediatamente con la rama master.
+    b) Sirve para colocar el trabajo actual, en un espacio temporal para posteriormente retomarlo.
+    c) Sirve para guardar los cambios de la rama, y regresar al master para continuar los cambios desde el último commit.
+
+2.- ¿Qué significa WIP cuando realizamos un git stash?: B
+    a) Work indise progress.
+    b) Work in progress.
+    c) Wait in progress.
+    d) Work in progress.
+
+3.- ¿Cómo puedo ver todos los trabajos pendientes en el stash?: A
+    a) git stash list.
+    b) git stash -o.
+    c) git stash all.
+    d) git stash.
+
+4.- ¿Cómo puedo recuperar el trabajo stash?:    A
+    a) git stash pop.
+    b) git stash recover.
+    c) git stash.
+    d) git stash drop.
+
+5.- Cuando recuperamos un trabajo del stash. ¿Es posible caer en conflictos?: Verdadero.
+
+6.- ¿El git rebase, nos puede servir para actualizar el punto de separación de una rama?: Verdadero.
+
+7.- ¿Qué puede hacer un rebase interactivo?:    E
+    a) Puede unir dos o más commits en un único commit.
+    b) Puede re-ordenar commits.
+    c) Corregir mensajes de commits.
+    d) Para separar commits.
+    e) Todas las anteriores.

@@ -1,0 +1,8 @@
+Para indicarle a Git, los archivos que no deben considerarse como parte del versionado
+se debe crear un archivo llamado
+
+.gitignore
+
+ese archivo debe estar en la carpeta donde se encuentra la carpeta
+
+.git

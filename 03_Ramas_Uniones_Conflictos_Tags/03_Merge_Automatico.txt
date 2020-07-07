@@ -1,0 +1,14 @@
+Para crear una nueva rama y cambiarnos a ella se usa el comando:
+
+git checkout -b nueva-rama
+
+Después de realizar los cambios, se debe realizar el commit, posteriormente, debemos cambiarnos a la rama
+donde realizaremos el merge.
+
+Ejecutamos el comando:
+
+git merge rama-nueva
+
+Nos abrirá un mensaje, solo tecleamos :wq
+
+Revisamos el log

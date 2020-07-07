@@ -1,0 +1,16 @@
+Stash, es como una caja o un contenedor, en el cual, podemos poner todos los cambios temporales para dejarlo como se encontraba en el último commit, es decir,
+para dejarlo en un determinado punto.
+
+Para crear un stash, usamos el comando:
+
+git stash
+
+Si deseamos saber todos los trabajos en progreso que hay, ejecutamos el comando:
+
+git stash list
+
+Cuando se haya realizado el commit con los nuevos cambios, o cambios emergentes, podemos regresar al trabajo que estabamos realizando anteriormente,
+para eso, usamos el comando:
+
+git stash pop
+

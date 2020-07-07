@@ -1,0 +1,4 @@
+Esto nos sirve para unir dos commit, para
+eso tecleamos el siguiente comando, estando en la rama principal (master):
+
+git rebase -i HEAD~#

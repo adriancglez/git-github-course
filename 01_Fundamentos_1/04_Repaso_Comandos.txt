@@ -1,0 +1,30 @@
+Los comandos usados hasta el momento:
+
+git init:                       Sirve para crear el repositorio local, cuando se teclea ese comando, git crea una carpeta llamada .git
+                                la cual, contiene la referencia a todo lo que realicemos en el repositorio, para que git lleve un rastro
+                                de todas las modificaciones que se van realizando en el repositorio.
+
+git add archivo.ext:            Sirve para mandar el archivo al escenario o a stage.
+
+git status:                     Muestra el listado de archivos que han sufrido alguna modificación desde el último commit a la fecha o que están en
+                                la carpeta pero que no están en stage o escenario, es decir, no son reconocidos por git, dichos archivos se muestran
+                                en color rojo.
+
+git commit -m "Mensaje":        Archivos listos para su snapshot o captura. Los mensajes se recomiendan que estén en tiempo presente y que describa
+                                con exactitud que fue lo que se realizó, que sea lo mas claro posible.
+
+git log:                        Nos permite visualizar el historial de commit realizados, ordenados desde el mas reciente hasta el primero.
+
+git log --oneline
+
+git add folder/:                Agrega al stage los archivos que se encuentren dentro de la carpeta /folder.
+git add *.png:                  Agrega al stage todos los archivos .png de la carpeta actual.
+git add "*.txt":                Agrega al stage todos los archivos .txt de TODO el proyecto.
+git add index.html:             Agrega al stage solo el archivo index.html.
+git add -A:                     Agrega al stage todos los archivos.
+git reset *.xml:                Quita o remueve del stage los archivos .xml de la carpeta actual.
+git add -all                    Agregar todos los archivos al stage que se hayan modificado, sin excepción.
+git add <lista de archivos>:    Agrega al stage los archivos que se listen.
+git add pdfs/*.pdf              Agrega todos los archivos .pdf que se encuentran dentro de la carpeta /pdfs.
+
+git config --global -l:         Visualizamos la información de configuración de Git en modo lista.

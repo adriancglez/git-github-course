@@ -1,0 +1,26 @@
+Para visualizar los cambios que se realizaron entre el commit anterior y el actual, se usa el comando:
+
+git diff
+
+Para verificar los cambios o diferencias en los archivos cuando ya están en el stage, se usa el comando:
+
+git diff --staged
+
+Para quitar un archivo del staged
+
+git reset HEAD README.md
+
+Con el comando
+
+git checkout -- archivo.ext
+
+Restauramos el contenido del archivo al último commit
+
+Para modificar el mensaje del último commit, se ejecuta el comando
+
+git commit --amend -m "Nuevo mensaje"
+
+Si deseamos actualizar un archivo pero agregarlo al último commit
+
+git reset --soft HEAD^
+git commit -m "mensaje"
