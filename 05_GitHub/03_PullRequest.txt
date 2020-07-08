@@ -1,0 +1,41 @@
+Es un proceso que consiste en integrar los cambios de nuestro repositorio remoto personal (copia) al repositorio remoto
+original.
+
+Para ello, realizamos las modificaciones en nuestro local, realizamos el commit y el push como comúnmente lo hemos
+realizado.
+
+Revisamos en nuestro repositorio remoto (copia) de GithHub y aseguramos que nuestros cambios se encuentren ahí,
+posteriormente, ahi mismo, pulsamos el botón "Pull Request", nos llevará a otra pantalla, revisamos que los cambios
+sean los correctos, y presionamos el botón "Create Pull Request".
+
+Escribimos el título del mensaje y una breve descripción del mensaje, y presionamos el botón "Create Pull Request".
+
+Con esto realizamos el Pull Request, solo esperamos que el repositorio original acepte/rechace los cambios y nos 
+lo noitifique.
+
+En nuestro repositorio remoto personal (copia) debemos ver un mensaje de respuesta del repositorio original respecto
+al Pull Request que solicitamos, presionamos el botón "Pull Request" y de ahí presionamos el botón "View Pull Request".
+
+Revisamos el mensaje y realizamos lo que se nos solicita.
+
+Para actualizar nuestro repositorio personal (copia) y tener los últimos cambios del repositorio original, tecleamos el
+siguiente comando:
+
+git remote add upstream <url:repositorio>
+
+Escribimos el comando:
+
+git remote -v
+
+Y debemos visualizar algo similar:
+
+origin	git@github.com:adriancglez/legion-del-mal.git (fetch)
+origin	git@github.com:adriancglez/legion-del-mal.git (push)
+upstream	https://github.com/Klerith/legion-del-mal.git (fetch)
+upstream	https://github.com/Klerith/legion-del-mal.git (push)
+
+Actualizamos con el comando para actualizar nuestro repositorio local:
+
+git pull upstream master
+
+posteriormente hacemos push para integrar esos cambios al repositorio remoto personal.
