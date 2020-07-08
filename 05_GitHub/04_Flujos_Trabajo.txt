@@ -1,0 +1,25 @@
+Para trabajar de una forma organizada, es recomendable realizar lo siguiente:
+
+    1.  Crear una rama nueva, con los cambios a realizar.
+    2.  Hacer commit de la forma normal
+    3.  Hacer push con el comando
+            git push origin nombre-rama
+    4.  Ir a GitHub a la pestaña "Pull Request".
+    5.  Presionar el botón "New Pull Request".
+    6.  Seleccionar de lado derecho la rama que vamos a integrar, por default, 
+        el izquiero se queda en master
+    7.  Revisamos los cambios.
+    8.  Presionar el botón "Create Pull Request".
+    9.  Agregamos un titulo y una descripción del comentario.
+    10. Presionamos el botón "Create Pull Request".
+    11. Presionamos el botón "Merge".
+    12. Proporcionamos un mensaje.
+    13. Presionamos el botón "Confirm Merge".
+    14. Presionamos el botón "Delete Branch".
+    15. Procedemos a eliminar la rama de nuestro repositorio local, cambiando 
+        a la rama master y escribiendo el comando:
+            git branch -d nombre-rama
+    16. Si nos muestra un error similar:
+            error: The branch 'nombre-rama' is not fully merged.
+        Debemos usar el siguiente comando:
+            git branch -D nombre-rama
