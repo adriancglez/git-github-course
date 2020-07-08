@@ -2,3 +2,8 @@ En caso que accidentalmente borremos algún archivo, carpeta, modifiquemos un ar
 la forma de restaurarlos es con el comando de git:
 
 git checkout -- .
+
+Para regresar a un commit un archivo en especial, revisamos el log para obtener el hash del commit, posteriormente,
+usamos el siguiente comando:
+
+git checkout hash <archivo.ext>
