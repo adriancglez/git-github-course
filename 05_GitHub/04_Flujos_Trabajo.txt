@@ -26,3 +26,9 @@ Para trabajar de una forma organizada, es recomendable realizar lo siguiente:
             error: The branch 'nombre-rama' is not fully merged.
         Debemos usar el siguiente comando:
             git branch -D nombre-rama
+    
+    18. Cuando un compañero integra sus cambios al repositorio, tenemos que descargarlos
+        en nuestro repositorio local, usando el comando:
+            git pull --all
+    19. Para ver todas las ramas, incluyendo las remotas, usamos el comando:
+            git branch -a
