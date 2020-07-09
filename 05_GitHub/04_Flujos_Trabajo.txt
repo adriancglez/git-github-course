@@ -32,3 +32,8 @@ Para trabajar de una forma organizada, es recomendable realizar lo siguiente:
             git pull --all
     19. Para ver todas las ramas, incluyendo las remotas, usamos el comando:
             git branch -a
+    20. Para eliminar las ramas remotas, hay dos formas:
+        *   Si existen en el repositorio remoto, usar el comando:
+                git push origin :nombre-rama
+        *   Si fueron eliminadas del repositorio remoto, usar el comando:
+                git remote prune origin
