@@ -19,5 +19,4 @@ git push --tags
 Una técnica para definir los nombres de versiones es la siguiente:
 
 v1.0.0
-
 Mayor.menor.parche
