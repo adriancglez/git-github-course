@@ -1,0 +1,10 @@
+Los issues son tareas o actividades que deben realizarse en el repositorio.
+
+Al crear el issue, si este se encuentra abierto, podemos asociar un commit
+al issue, con el siguiente comando:
+
+git commit -m "Mensaje fixes #issue"
+git commit -m "Mensaje bugs #issue"
+git commit -m "Mensaje resolves #issue"
+
+Un milestone son grupo de issues, características o una fecha dentro de un periodo de tiempo.
