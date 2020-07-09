@@ -7,3 +7,11 @@ Para regresar a un commit un archivo en especial, revisamos el log para obtener 
 usamos el siguiente comando:
 
 git checkout hash <archivo.ext>
+
+Para cambiar el mensaje del último commit, usamos el comando:
+
+git commit --amend -m "Nuevo mensaje"
+
+Si deseamos integrar cambios en el último commit, sin tener dos commit diferentes, usamos el comando:
+
+git reset --soft HEAD^
