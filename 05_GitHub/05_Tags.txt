@@ -1,0 +1,23 @@
+Un tag, es recomendable que se realice cuando realizamos un push a producción.
+
+Para crear un tag en el último commit, usamos el comando:
+
+git tag -a nombre-tag -m "Mensaje"
+
+Para crear un tag en un commit específico, usamos el comando:
+
+git tag -a nombre-tag hashcommit -m "Mensaje"
+
+Para ver los tag, usamos el comando:
+
+git tag
+
+Para integrar los tags al repositorio remoto personal (copia), usamos el comando:
+
+git push --tags
+
+Una técnica para definir los nombres de versiones es la siguiente:
+
+v1.0.0
+
+Mayor.menor.parche
